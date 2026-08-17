@@ -87,7 +87,7 @@
     .section-head{max-width:720px;margin-bottom:30px}
     .section-head h2{font-size:clamp(1.8rem,3.4vw,2.7rem);line-height:1.15;margin:0 0 10px;letter-spacing:-.025em}
     .section-head p{margin:0;color:var(--muted)}
-    .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .grid-4{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
     .feature-card{
       background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
       padding:22px;box-shadow:0 8px 24px rgba(25,70,45,.05)
@@ -246,6 +246,11 @@
             <p>Tampilan sudah diuji pada smartphone, tablet 7-inch, dan tablet sekitar 10-inch.</p>
           </article>
           <article class="feature-card">
+            <div class="feature-icon">⚙️</div>
+            <h3>Kategori fleksibel</h3>
+            <p>Pengguna dapat menambah, mengubah, dan menghapus sumber pemasukan maupun kategori pengeluaran sesuai kebutuhan.</p>
+          </article>
+          <article class="feature-card">
             <div class="feature-icon">📄</div>
             <h3>Export data</h3>
             <p>Transaksi dapat diekspor ke CSV dan laporan dapat dibuat ke PDF dari aplikasi.</p>
@@ -329,7 +334,7 @@
           <article class="step"><h3>Kirim Gmail secara pribadi</h3><p>Kirim alamat Gmail kepada saya lewat chat pribadi. Jangan menuliskannya di grup atau ruang publik.</p></article>
           <article class="step"><h3>Saya daftarkan sebagai tester</h3><p>Alamat Gmail akan dimasukkan ke daftar Closed Testing Tata Catat di Google Play Console.</p></article>
           <article class="step"><h3>Buka link resmi Google Play</h3><p>Setelah release testing siap, saya akan mengirim link opt-in resmi dari Google Play.</p></article>
-          <article class="step"><h3>Install &amp; coba aplikasi</h3><p>Install Tata Catat, lalu coba pencatatan pemasukan, pengeluaran, riwayat, laporan, dan pengaturan.</p></article>
+          <article class="step"><h3>Install &amp; coba aplikasi</h3><p>Install Tata Catat, lalu coba pencatatan pemasukan, pengeluaran, riwayat, laporan, serta menambah atau mengubah kategori sesuai kebutuhan.</p></article>
           <article class="step"><h3>Tetap bergabung minimal 14 hari</h3><p>Mohon jangan keluar dari program testing selama setidaknya 14 hari. Jika menemukan kendala, sampaikan kepada saya.</p></article>
         </div>
       </div>
@@ -344,6 +349,7 @@
           <details><summary>Apakah bisa menggunakan iPhone?</summary><p>Belum. Tata Catat saat ini baru dikembangkan dan diuji untuk Android.</p></details>
           <details><summary>Apakah bisa dipasang di tablet?</summary><p>Ya. Tata Catat sudah diuji pada tablet Android 7-inch dan sekitar 10-inch, selain smartphone Android.</p></details>
           <details><summary>Apakah harus selalu terhubung ke internet?</summary><p>Tidak untuk fungsi pencatatan utama setelah aplikasi terpasang. Internet tetap diperlukan untuk mengunduh aplikasi dari Google Play, proses bergabung Closed Testing, dan pembaruan aplikasi.</p></details>
+          <details><summary>Apakah kategori pemasukan dan pengeluaran bisa diubah?</summary><p>Ya. Pengguna dapat menambah, mengubah, dan menghapus sumber pemasukan maupun kategori pengeluaran agar sesuai dengan kebutuhan pribadi atau usahanya.</p></details>
           <details><summary>Apakah harus menggunakan data keuangan asli?</summary><p>Tidak. Untuk testing, gunakan saja data contoh agar lebih nyaman dan menjaga privasi.</p></details>
           <details><summary>Apa yang perlu dilaporkan?</summary><p>Jika aplikasi menutup sendiri, tombol tidak bekerja, tampilan bermasalah, atau ada bagian yang membingungkan, cukup kirim pesan singkat atau screenshot kepada saya.</p></details>
         </div>
